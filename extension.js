@@ -110,12 +110,12 @@
         blacklists: {
             Troll: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/troll.json",
             OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json",
-            LMAO: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            LMAO: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             LOL: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/ExampleTrolllist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/ZoltofLightning/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
 
 }).call(this);
