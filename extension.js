@@ -110,7 +110,7 @@
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json",
-            Troll: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/troll.json"
+            Troll: "https://rawgit.com/ZoltofLightning/basicBot-customization/master/blacklists/troll.json"
         }
     }));
 
