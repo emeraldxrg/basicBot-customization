@@ -33,14 +33,14 @@
          */
 
         bot.commands.baconCommand = {
-            command: 'test',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me This is a test command");
+                    API.sendChat("/me Bacon!!!");
                 }
             }
         };
@@ -53,14 +53,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Electribot",
+        botName: "ElectribotNameTest",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: false,
         chatLink: "https://rawgit.com/ZoltofLightning/basicBot/master/lang/en.json",
-        maximumAfk: 80,
+        maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -77,11 +77,11 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 1,
+        lockskipPosition: 3,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
-            ["history", "This song was played recently. "],
+            ["history", "This song is in the history. "],
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
@@ -103,7 +103,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: null,
+        songstats: true,
         commandLiteral: "!",
         blacklists: {
             Troll: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/troll.json",
