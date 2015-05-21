@@ -44,7 +44,7 @@
                     API.sendChat("/me This is a test command2");
                 }
             }
-        }
+        };
         bot.commands.baconCommand = {
             command: 'test',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
