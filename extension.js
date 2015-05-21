@@ -108,6 +108,7 @@
         commandLiteral: "!",
         blacklists: {
             Banned: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Banned.json",
+            Overplayed: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Overplayed.json",
         }
     }));
 
