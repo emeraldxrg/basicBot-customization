@@ -53,14 +53,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "ElectribotNameTest",
+        botName: "Electribot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: false,
         chatLink: "https://rawgit.com/ZoltofLightning/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        maximumAfk: 80,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -73,19 +73,20 @@
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 2,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
+            ["theme", "This song does not fit the theme of this community. "],
             ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
+            ["history", "This song was played recently. "],
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
+            ["rekt", "You just got rekt m8. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
@@ -103,7 +104,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             Troll: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/troll.json",
