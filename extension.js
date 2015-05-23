@@ -85,7 +85,7 @@
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["unavailable", "The song you played was not available for some users. "],
             ["rekt", "You just got rekt m8. "]
         ],
         afkpositionCheck: 15,
