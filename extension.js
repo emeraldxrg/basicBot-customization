@@ -98,7 +98,7 @@
         welcome: true,
         opLink: null,
         rulesLink: null,
-        themeLink: null,
+        themeLink: "EDM (Electronic Dance Music)",
         fbLink: null,
         youtubeLink: null,
         website: null,
