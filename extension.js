@@ -79,7 +79,7 @@
         usercommandsEnabled: true,
         lockskipPosition: 2,
         lockskipReasons: [
-            ["theme", "This song does not fit the theme of this community. "],
+            ["genre", "This song does not fit the genre of this community. "],
             ["op", "This song is on the OP list. "],
             ["history", "This song was played recently. "],
             ["mix", "You played a mix, which is against the rules. "],
