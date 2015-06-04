@@ -57,10 +57,10 @@
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
-        startupEmoji: true, // true or false
-        cmdDeletion: false,
+        startupEmoji: false, // true or false
+        cmdDeletion: true,
         chatLink: "https://rawgit.com/ZoltofLightning/basicBot/master/lang/en.json",
-        maximumAfk: 80,
+        maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -70,8 +70,8 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
+        voteSkip: true,
+        voteSkipLimit: 5,
         timeGuard: true,
         maximumSongLength: 7,
         autodisable: true,
@@ -97,7 +97,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "https://github.com/ZoltofLightning/basicBot/blob/master/Rules.md",
         themeLink: "EDM (Electronic Dance Music)",
         fbLink: null,
         youtubeLink: null,
