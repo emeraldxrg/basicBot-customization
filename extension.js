@@ -87,7 +87,6 @@
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "],
             ["rekt", "You just got rekt m8. "]
-            ["over", "The song or video was over. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
