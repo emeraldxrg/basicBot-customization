@@ -55,9 +55,9 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "RGxBot",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 15, // 1-200
+        startupVolume: 25, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: true,
         cmdDeletion: true,
@@ -66,7 +66,7 @@
         afkRemoval: false,
         maximumDc: 120,
         bouncerPlus: true,
-        blacklistEnabled: true,
+        blacklistEnabled: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
@@ -76,8 +76,8 @@
         voteSkipLimit: 2,
         timeGuard: false,
         maximumSongLength: 7,
-        autodisable: true,
-        commandCooldown: 30,
+        autodisable: false,
+        commandCooldown: 0,
         usercommandsEnabled: true,
         lockskipPosition: 1,
         lockskipReasons: [
@@ -99,11 +99,11 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "https://github.com/ZoltofLightning/basicBot/blob/master/Rules.md",
+        rulesLink: "http://prntscr.com/85qacf",
         themeLink: "Any Genre",
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "http://rangers-gaming.com/forum",
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
