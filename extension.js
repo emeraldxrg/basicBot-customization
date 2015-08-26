@@ -53,11 +53,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Electribot",
+        botName: "RGxBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
+        autowoot: true,
+        autoskip: true,
         cmdDeletion: true,
         chatLink: "https://rawgit.com/ZoltofLightning/basicBot/master/lang/en.json",
         maximumAfk: 90,
@@ -70,8 +72,8 @@
         maximumLocktime: 10,
         cycleGuard: false,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 5,
+        voteSkip: true,
+        voteSkipLimit: 2,
         timeGuard: false,
         maximumSongLength: 7,
         autodisable: true,
